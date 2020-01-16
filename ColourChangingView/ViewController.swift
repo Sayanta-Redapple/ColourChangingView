@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let fantasticView = ColourChangingView(frame: self.view.bounds)
-        self.view.addSubview(fantasticView)
+        let colorChangingView = ColourChangingView(frame: self.view.bounds)
+        self.view.addSubview(colorChangingView)
     }
 
 }
